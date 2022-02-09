@@ -17,9 +17,17 @@ h1 {
     text-align: center;
     font-weight: 500;
     margin: 0;
-    padding: 20px 0;
+    padding: 20px 0px 5px 0px;
     color: #00539F;
     text-shadow: 3px 3px 1px black;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 500;
+    color: #00539F;
+    text-shadow: 1px 1px 0px black;
+    font-size: 22px;
 }
 
 img {
@@ -28,6 +36,41 @@ img {
     margin-right: auto;
     width: 30%;
     height: 50%;
+}
+
+#biglink {
+    font-size: 36px;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px 0;
+    padding: 0 0 10px;
+    color: #00539F;
+    text-shadow: 2px 2px 1px black;
+}
+
+input {
+    padding: 7px 0;
+    display: block;
+    text-align: center;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.action {
+    display: inline-block;
+    width: 246px;
+    margin-right: 2px;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    color: #00539F;
+    text-shadow: 1px 1px 0px black;
 }
 
 p, li {
